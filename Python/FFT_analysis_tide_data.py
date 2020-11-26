@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 @author: skipjack - Vladmyr Schlosser Mello
 Adapted from: Vinicius Dionysio Alves
