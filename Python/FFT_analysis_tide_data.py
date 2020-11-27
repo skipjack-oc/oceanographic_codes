@@ -33,8 +33,8 @@ x = np.arange(0,N)  # Vector time
 plt.plot(x, y)
 plt.xlim(x[0],x[N-1])
 plt.title('Time serie - Random data')
-plt.xlabel('')
-plt.ylabel('y')
+plt.xlabel('Time')
+plt.ylabel('Amplitude (m) ')
 plt.show()
 
 # Find closest square for FFT
@@ -128,9 +128,9 @@ string = ['1','2','3','4','5','6','7','8']
 plt.loglog(f[1:], Pyy[1:], color='gray')
 for c in range(0,8):
     plt.annotate(string[c],xy=[f[i[c]],Pyy[i[c]]],arrowprops=dict(arrowstyle = "->",connectionstyle = "angle,angleA=45,angleB=0,rad=10"))
-plt.title('Periodograma dos dados de Maré')
-plt.xlabel('Frequência (H-¹)')
-plt.ylabel('Potência(m²)')
+plt.title('Periodogram - Tide Data Woods Hole (2005/05)')
+plt.xlabel('Frequency (h-¹)(log)')
+plt.ylabel('Power(m²)(log)')
 plt.show()
 
 # Peak period print
@@ -140,42 +140,4 @@ print(p)
 # Parseval theorem test and round 4 decimal
 if(np.round(sum(abs(y)**2),4)==np.round(sum(Pyy),4)):
     print('Parseval theorem is valid')
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
