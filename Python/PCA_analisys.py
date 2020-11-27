@@ -1,7 +1,7 @@
 """
 Created on Thu Oct 22 21:49:08 2020
 
-@author: skipjack - Vladmyr Schlosser Mello ft. Vinicius Dionysio Alves
+@author: skipjack - Vladmyr Schlosser Mello ft. Vinicius Dionysio Alves (https://github.com/ocdionysio)
 
 Principal Components Analisys, hipotetic data from trace metals.
 
