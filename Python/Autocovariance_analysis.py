@@ -4,7 +4,7 @@ Spyder Editor
 @author: skipjack - Vladmyr Schlosser Mello
 This is a temporary script file.
 
-Adapted from: Vinicius Dionysio Alves
+Adapted from: Vinicius Dionysio Alves (https://github.com/ocdionysio)
 
 Autocovariance Analysis from tide data.
 data source: http://www.cambridge.org/glover
