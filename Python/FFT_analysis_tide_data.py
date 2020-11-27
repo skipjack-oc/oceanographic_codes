@@ -40,7 +40,7 @@ plt.show()
 # Find closest square for FFT
 n = int(2**np.ceil(np.log2(N)))
 
-# Remover mean
+# Remove mean
 y = y[:] - df['y'].mean()
 
 # FFT
