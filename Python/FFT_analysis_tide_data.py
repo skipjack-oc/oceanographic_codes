@@ -1,6 +1,6 @@
 """
 @author: skipjack - Vladmyr Schlosser Mello
-Adapted from: Vinicius Dionysio Alves
+Adapted from: Vinicius Dionysio Alves (https://github.com/ocdionysio)
 
 Fast Fourier Transform (FFT) analisys from tide data.
 
