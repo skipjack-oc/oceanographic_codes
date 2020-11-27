@@ -7,7 +7,7 @@ Created on Thu Oct 22 15:20:17 2020
 
 @author: skipjack
 
-Adaptado de: Vinicius Dyonisio Alves
+Adaptado de: Vinicius Dyonisio Alves (https://github.com/ocdionysio)
 
 Resolução do exercício 2 da Lista 3
 Análise de EOF's, série temporal de dados artificiais de altura do nı́vel do
