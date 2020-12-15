@@ -25,7 +25,7 @@ for(c in 1:nrow(mei)){
  }
 
 # Time serie plot
-plot(ts(timeserie), main = "Mulrivariate ENSO Index", ylab= "(ºC)")
+plot(ts(timeserie), main = "Multivariate ENSO Index", ylab= "(ºC)")
 
 # Wavelet analysis
 wavelet <- biwavelet::wt(cbind(1:791, timeserie))
