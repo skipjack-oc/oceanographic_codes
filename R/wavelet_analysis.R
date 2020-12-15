@@ -1,6 +1,7 @@
 # Wavelet analysis using multivariate ENSO index
 # Author: Claus Inck ft. Vladmyr Schlosser Mello
-# OBS: we need to  
+# OBS: we need to correct, date axis!!
+# Data Source: http://paos.colorado.edu/research/wavelets/software.html
 
 # Set working directory
 setwd("/home/skipjack/R")
@@ -30,11 +31,27 @@ plot(ts(timeserie), main = "Mulrivariate ENSO Index", ylab= "(ºC)")
 wavelet <- biwavelet::wt(cbind(1:791, timeserie))
 
 # Wavelet plot
-plot(wavelet, main = "MEI Wavelet Power Spectrum (Morlet)", bw = T, col.coi = 'red', col.sig = 'black')
+plot(wavelet, main = "MEI Wavelet Power Spectrum (Morlet)") 
 
 
 # Reference
 citation("biwavelet")
+
+## To cite biwavelet in publications use:
+## 
+##   Tarik C. Gouhier, Aslak Grinsted, Viliam Simko (2019). R package
+##   biwavelet: Conduct Univariate and Bivariate Wavelet Analyses (Version
+##   0.20.19). Available from https://github.com/tgouhier/biwavelet
+## 
+## A BibTeX entry for LaTeX users is
+## 
+##   @Manual{,
+##     title = {R package {biwavelet}: Conduct Univariate and Bivariate Wavelet Analyses},
+##     author = {Tarik C. Gouhier and Aslak Grinsted and Viliam Simko},
+##     year = {2019},
+##     note = {(Version 0.20.19)},
+##     url = {https://github.com/tgouhier/biwavelet},
+##   }
 
 # end of the code !
 
